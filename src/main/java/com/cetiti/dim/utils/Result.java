@@ -12,19 +12,25 @@
 package com.cetiti.dim.utils;
 
 public class Result {
-
+    private int code;
     private String message;
-
-
-    private int retCode;
+    private int count;
 
 
     public int getRetCode() {
-        return retCode;
+        return code;
     }
 
     public void setRetCode(int retCode) {
-        this.retCode = retCode;
+        this.code = retCode;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 
     /**
@@ -41,7 +47,7 @@ public class Result {
     public void setMessage(String message, int retCode) {
         message += ",返回码:" + retCode;
         this.message = message;
-        this.retCode = retCode;
+        this.code = retCode;
     }
 
 }

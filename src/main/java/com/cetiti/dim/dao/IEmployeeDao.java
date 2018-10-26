@@ -13,6 +13,8 @@ package com.cetiti.dim.dao;
 
 import com.cetiti.dim.model.Employee;
 
+import java.util.List;
+
 public interface IEmployeeDao {
-    public Employee get(int id);
+    public List<Employee> getInfo(int id);
 }

@@ -13,6 +13,8 @@ package com.cetiti.dim.service;
 
 import com.cetiti.dim.model.Employee;
 
+import java.util.List;
+
 public interface IEmployeeService {
-    public Employee get(int id);
+    public List<Employee> getInfo(int id);
 }

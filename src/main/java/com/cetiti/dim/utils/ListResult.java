@@ -15,13 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListResult extends Result {
-    private List rows = new ArrayList<>();
-
+    private List data = new ArrayList<>();
     public List getRows() {
-        return rows;
+        return data;
     }
-
     public void setRows(List<?> rows) {
-        this.rows = rows;
+        this.data = rows;
     }
 }

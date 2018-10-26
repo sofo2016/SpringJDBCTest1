@@ -16,13 +16,15 @@ import com.cetiti.dim.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class EmployeeServiceImpl implements IEmployeeService {
 
     @Autowired
     private IEmployeeDao iEmployeeDao;
     @Override
-    public Employee get(int id) {
-        return iEmployeeDao.get(1);
+    public List<Employee> getInfo(int id) {
+        return iEmployeeDao.getInfo(id);
     }
 }
