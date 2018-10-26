@@ -10,8 +10,7 @@
 <html>
 <head>
     <title>Show Page</title>
-    <script src="../../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../../js/index.jsp.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <table border="1" cellspacing="0" cellpadding="10">
