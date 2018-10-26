@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
  * Created by wanggenshen_sx on 2016/12/23.
  */
 @Repository
-public class EmployeeDao {
+public class EmployeeDaoImpl implements  IEmployeeDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
